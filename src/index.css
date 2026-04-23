@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 1.5rem;
+    --background: 345 100% 98%;
+    --foreground: 345 10% 27%;
+    --card: 0 0% 100%;
+    --card-foreground: 345 10% 27%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 345 10% 27%;
+    --primary: 345 100% 85%;
+    --primary-foreground: 345 100% 100%;
+    --secondary: 0 20% 74%;
+    --secondary-foreground: 345 10% 27%;
+    --muted: 345 30% 96%;
+    --muted-foreground: 345 10% 50%;
+    --accent: 345 100% 85%;
+    --accent-foreground: 345 10% 27%;
+    --destructive: 0 84.2% 60.2%;
+    --border: 345 50% 91%;
+    --input: 345 50% 91%;
+    --ring: 345 100% 85%;
+    --chart-1: 345 100% 85%;
+    --chart-2: 345 100% 75%;
+    --chart-3: 345 100% 65%;
+    --chart-4: 345 100% 55%;
+    --chart-5: 345 100% 45%;
+    --sidebar-background: 345 100% 99%;
+    --sidebar-foreground: 345 10% 27%;
+    --sidebar-primary: 345 100% 85%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 345 100% 95%;
+    --sidebar-accent-foreground: 345 10% 27%;
+    --sidebar-border: 345 50% 91%;
+    --sidebar-ring: 345 100% 85%;
+    --destructive-foreground: 210 40% 98%;
+  }
+
+  .dark {
+    --background: 345 20% 5%;
+    --foreground: 345 10% 98%;
+    --card: 345 20% 7%;
+    --card-foreground: 345 10% 98%;
+    --popover: 345 20% 7%;
+    --popover-foreground: 345 10% 98%;
+    --primary: 345 100% 85%;
+    --primary-foreground: 345 20% 10%;
+    --secondary: 345 20% 15%;
+    --secondary-foreground: 345 10% 98%;
+    --muted: 345 20% 12%;
+    --muted-foreground: 345 10% 65%;
+    --accent: 345 100% 85%;
+    --accent-foreground: 345 20% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --border: 345 20% 15%;
+    --input: 345 20% 15%;
+    --ring: 345 100% 85%;
+    --sidebar-background: 345 20% 7%;
+    --sidebar-foreground: 345 10% 98%;
+    --sidebar-primary: 345 100% 85%;
+    --sidebar-primary-foreground: 345 20% 10%;
+    --sidebar-accent: 345 20% 15%;
+    --sidebar-accent-foreground: 345 10% 98%;
+    --sidebar-border: 345 20% 15%;
+    --sidebar-ring: 345 100% 85%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans scroll-smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .firework-particle {
+    @apply absolute bg-primary rounded-full;
+    width: 0.5vmin;
+    height: 0.5vmin;
+  }
+
+  .floating-element {
+    @apply pointer-events-none absolute;
+    animation: float-up var(--float-duration) linear infinite;
+    left: var(--float-left);
+    animation-delay: var(--float-delay);
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+}
