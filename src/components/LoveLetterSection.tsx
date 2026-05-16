@@ -23,8 +23,7 @@ Throughout this year, I hurt you many times with my behavior and my actions, but
 
 At the end, I just hope you’ll stay with me in the future and keep holding my hand tightly, no matter how difficult the obstacles we face become 💗
 
-Your's
-NONE💗
+- NONE💗
 `;
 
   const { displayedText, isFinished } = useTypingEffect(letterText, 40, isLetterOpened);
