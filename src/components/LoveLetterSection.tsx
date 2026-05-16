@@ -13,15 +13,19 @@ const LoveLetterSection: React.FC<LoveLetterSectionProps> = ({ onComplete }) => 
 
   const letterText = ` Dearest Suku,
 
-Happy 1 Year Anniversary! ❤️
+We have successfully completed 1 year together 💗 We created so many beautiful memories throughout this year. We broke up many times, but somehow we always found our way back and fixed our relationship. Maybe that means we are truly made for each other hehe :)
 
-As I sit down to write this, my heart is overflowing with gratitude for the past 365 days. From the moment we first walked through that park at sunset, I knew that my life was about to change in the most beautiful way.
+You will always be my favorite part of my life, no matter whether we stay together forever or not. Because of you, I experienced the true feeling of love and got the chance to share my love with someone so special. I will always be grateful to you for choosing me as your partner.
 
-Every day with you has been an adventure. Whether we're exploring new places, having quiet cafe dates, or just wrapping ourselves in blankets for a movie night, you make every moment feel extraordinary. Your laugh is my favorite soundtrack, and your presence is my peace.
+I hope you stay with me until my last breath. I just want a beautiful future where you and I can live happily together. Just stay with me until then and never give up on me. If I do something wrong, tell me and I’ll fix it, but please never leave me.
 
-Thank you for choosing me, for supporting me, and for loving me just as I am. You are my best friend, my partner, and my greatest treasure. I am so excited for all the chapters yet to come in our story.
+Throughout this year, I hurt you many times with my behavior and my actions, but trust me, none of those were intentional. I’m still learning how to love you properly, and because of that, I made mistakes. If you ever feel that I’m not serious or not putting in enough effort, then that isn’t true at all. I’m simply learning and trying to become better for us.
 
-With all my love, forever yours. ✨`;
+At the end, I just hope you’ll stay with me in the future and keep holding my hand tightly, no matter how difficult the obstacles we face become 💗
+
+Your's
+NONE💗
+`;
 
   const { displayedText, isFinished } = useTypingEffect(letterText, 40, isLetterOpened);
 
