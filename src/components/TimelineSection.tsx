@@ -142,8 +142,8 @@ const TimelineSection: React.FC<TimelineSectionProps> = ({ onComplete }) => {
         className="mt-32 p-7 bg-romantic-pastel/20 rounded-3xl border-2 border-dashed border-romantic-pink/30 text-center"
       >
         <p className="text-romantic-pink font-serif text-1xl md:text-3xl tracking-wide">
-          MESSAGE: We’ve created so many beautiful memories throughout this one year together 🥀… and I swear, I’ll carry every single one of them with me for the rest of my life. Most of those moments exist because of you—your love, your effort, your way of making everything feel special… and I adore you for that.
-                  Maybe I’m not always the best at expressing my feelings or creating memories the way you do, but please don’t ever doubt this—I love you with every part of my heart. Even the parts I can’t put into words.
+          MESSAGE: We’ve created so many beautiful memories throughout this one year together🫶… and I swear, I’ll carry every single one of them with me for the rest of my life. Most of those moments exist because of you; your love, your effort, your way of making everything feel special… and I adore you for that.
+                  Maybe I’m not always the best at expressing my feelings or creating memories the way you do, but please don’t ever doubt this; I love you with every part of my heart. Even the parts I can’t put into words.
                   All I truly want is this… stay with me. No matter what comes our way, no matter how hard things get, let’s hold onto each other and never let go. Let’s stay strong, stay us, and keep choosing each other until the very end. 💗
 
         </p>
